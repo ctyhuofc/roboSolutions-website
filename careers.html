@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>
+        Register
+    </h1>
+    <form>
+        <label for="name">Full Name </label>
+        <input type="text" placeholder="Full Name" for=""Name" pattern=".{8,}" title="Eight or more characters" required><br><br>
+        <label for="experience">Experience </label>
+        <input type="number" placeholder="Experience" for="experience" required><br><br>
+        <label for="vacancy">Vacancy </label>
+        <select name="vacancies" id="vacancies" required>
+            <option value="android">Android Developer</option>
+            <option value="fullstack">Full Stack Developer</option>
+            <option value="consultant">Consultant</option>
+            <option value="randd">Research and Development</option>
+          </select><br><br>
+        <label for="jobType">Job Type </label>
+        <select name="jobtypes" id="jobtypes" required>
+            <option value="fulltime">Full Time</option>
+            <option value="parttime">Part Time</option>
+            <option value="freelancer">Freelancer</option>
+            <option value="internship">Internship</option>
+        </select><br><br>
+
+        <button type="submit">Apply</button>
+
+    </form>
+</body>
+</html>
